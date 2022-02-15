@@ -1,0 +1,21 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&family=Roboto+Mono&display=swap');
+    font-family: 'Poppins', sans-serif;
+   background-color: rgb(190, 246, 250); 
+}
+
+.calculator{
+    width: 500px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+.solar-pan{
+    background-color: rgb(97, 97, 97);
+    width: 150px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
