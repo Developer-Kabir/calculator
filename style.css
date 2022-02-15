@@ -23,6 +23,8 @@ body {
 
 
 #display {
+    text-align: right;
+    font-size: 20px;
      background-color: white;
      height: 40px;
      width: 100%;
@@ -41,8 +43,19 @@ body {
  border-radius: 5px;
  box-shadow: #858299 1px 1px;
  font-weight: 800;
+ cursor: pointer;
 }
 
-#plus-sign{
+.calculator-btn:active {
+    box-shadow: 0 2px #666;
+    transform: translateY(2px);
+  }
 
+.calculator-btn:{
+    width: 75px;
+}
+
+#equal{
+ float: right;
+ margin-top: -36px;
 }
