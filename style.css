@@ -51,9 +51,7 @@ body {
     transform: translateY(2px);
   }
 
-.calculator-btn:{
-    width: 75px;
-}
+
 
 #equal{
  float: right;
