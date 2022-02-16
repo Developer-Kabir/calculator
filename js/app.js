@@ -16,3 +16,9 @@ document.getElementById("equal").addEventListener("click", function(){
         display.value = "";
     }
 })
+
+document.getElementById("backspace").addEventListener("click", function(){
+    let result = display.value;
+    result = result.substring(0, result.length - 1);
+    display.value = result;
+})
